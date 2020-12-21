@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="water_works_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water_works_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light_smoky_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light_smoky_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shanghai_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shanghai_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mor_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mor_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_play_screen_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_play_screen_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavii_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mavii_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="electric_company_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electric_company_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banks_pay_dividend_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banks_pay_dividend_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="take_trip_to_station_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\take_trip_to_station_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-four.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-one.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elected_chairman_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elected_chairman_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advance_to_istanbul_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advance_to_istanbul_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_pawn_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_pawn_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_pawn_bg_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_pawn_bg_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcelona_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcelona_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newyork_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newyork_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="money" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_pawn_bg_blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_pawn_bg_blur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_button_2_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_button_2_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paris_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paris_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_screen_backgorund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_screen_backgorund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="house_last" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\house_last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grand_central_station_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grand_central_station_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vancouver_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vancouver_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoes_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoes_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monopoly_map_finnal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monopoly_map_finnal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yesil_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yesil_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advance_to_london_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advance_to_london_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grand_central_station_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grand_central_station_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="athens_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\athens_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotel_last3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotel_last3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bune_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bune_pawn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-five.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deal_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deal_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sydney_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sydney_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monopoly_bg_with_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monopoly_bg_with_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="montreal_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\montreal_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pembe_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pembe_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pay_poor_tax_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pay_poor_tax_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taipei_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taipei_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kabel_Heavy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kabel-Heavy.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="game_play_screen_background_with_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_play_screen_background_with_map.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capetown_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capetown_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gdynia_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gdynia_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advanec_to_station" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advanec_to_station.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monopoly_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monopoly_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_back_3_spaces_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go_back_3_spaces_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="building_loan_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\building_loan_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ship_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ship_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car_pawn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crossword_competition_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crossword_competition_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcelona_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcelona_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_to_jail_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go_to_jail_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_play_screen_background_low_mapli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_play_screen_background_low_mapli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="belgrades_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\belgrades_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tokyo_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tokyo_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jerusalem_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jerusalem_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="general_repair_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\general_repair_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_play_screen_background_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_play_screen_background_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hongkong_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hongkong_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heathrow_airport_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heathrow_airport_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iron_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iron_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="to_nearest_utility_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\to_nearest_utility_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menus_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menus_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advance_to_montreal_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advance_to_montreal_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capetown_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capetown_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gdynia_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gdynia_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ship_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ship_pawn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="london_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\london_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hongkong_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hongkong_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hat_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hat_pawn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riga_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riga_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istanbul_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istanbul_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="athens_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\athens_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get_out_jail_chance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\get_out_jail_chance.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bune_pawn_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bune_pawn_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toronto_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toronto_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="belgrades_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\belgrades_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-six.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kyiv_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kyiv_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iron_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iron_pawn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heathrow_airport_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heathrow_airport_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_bid_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_bid_border.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="host_join_options_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\host_join_options_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttons_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttons_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jail_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jail_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="athens_property_card1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\athens_property_card1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shoes_pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shoes_pawn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rome_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rome_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttons_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttons_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beijing_property_card - Kopya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beijing_property_card - Kopya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="english_harbour_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\english_harbour_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beijing_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beijing_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trade_screen_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trade_screen_bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advance_to_go_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advance_to_go_ch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="poole_harbour_property_card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poole_harbour_property_card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advance_to_go_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advance_to_go_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bank_error_favor_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bank_error_favor_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beauty_contest_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beauty_contest_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birthday_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birthday_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctors_fee_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doctors_fee_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get_out_jail_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\get_out_jail_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_to_jail_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go_to_jail_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospital_fee_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hospital_fee_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="income_tax_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\income_tax_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inherit_100_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inherit_100_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="life_insurance_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\life_insurance_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opera_opening_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opera_opening_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="receive_consultancy_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receive_consultancy_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale_of_stock_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale_of_stock_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="school_fee_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\school_fee_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="street_repairs_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\street_repairs_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xmas_fund_cmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xmas_fund_cmn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_click" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        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
+        /7b//37//5cAAEQAAJD//zD//wj//5L+//P//2H//yoDADICADwDAIcCAJIEANADAP8DAE0DAMMDAAQD
+        ACIBAN8AAEcAAFIAAPL//zwAABcBAEcBAMsCAK0CAAgEAMADAN0BAPkBAGL//+z//739/43+/8D8/7v9
+        /3r8/279/978/9P9/zj+/+z+/6b//+///7/+//v+/2n9/9L9/x77//H7/876/8L7/+f7/5b8/8P9//b9
+        /6b+/27+/4j//wz//2H//w3//3AAAB0AAOj//6v//yL///3+/2v//xj//9cAAC4AAI4BAN0AAM0CABkC
+        ABwDAH0CALYDABADAK8CAD8CAHsCABwCAOQAANUAAEEAAFIAAHkAAJQAAHcCAFoCACMCADICAPcBAB8C
+        AIkAAO0AAIH//+3//6n9/0j+/8/8/6f9//T8/+H9/w7+/9D+/yr//5n//7///+P//yf+/2r+/4r8/xD9
+        /+b7/5f8/2r8/xD9/2z9/739/4v+/3v+/zf///b+/4QAAAYAAFcAAOb//+///6z//2r//z7//8v//4P/
+        /4gAABgAAMcBACYBAGkCALEBAN4CACYCALYCACUCABkDAKECAHUCACwCAGcBAEsBANMAAMQAAGYBADkB
+        AF4BAEYBANcBAOABAIgBAMcBAHwBALMBABEAAGAAADj//4///8X9/1n+/079/w3+/779/3v+/2v//9P/
+        /2n//63///7+/yz//9n9/yr+/zX9/6P9//P8/179/zf9/439//j9/yb+/13//zj//z4AAOD//8gAAE4A
+        ADIAAMj//5H//0r//37//07//1wAABgAAD0BAM0AAP4BAF4BABwCAHQBALcCABICAJMCABoCAPgBAMUB
+        AGMBAFUBADUBABoBAAYBAN4AACsBABABADcBAEEBADkBAGYBAM8AABcBALkAAPMAALT///7//2D+/9n+
+        /5P9/zL+/yf+/7T+/23+/+z+/x3//3D//9z+/zH//73+/wH//+/9/zT+/4r9/8z9/yr9/3j9/5H9/9D9
+        /3L+/5T+/wkAAN3//30AAB8AAEAAAND//6b//1L//3r//0r//9D//6z//3UAADsAAPIAAJoAAMoBAD8B
+        ABICAH4BAA4CAKEBAJEBAGEBABoBAA0BAK0AAK8AAMcAAMIAANsAANIAAMMAANAAAHsAAKoAAKkAAN0A
+        AG8AAK8AAJv///3//8n+/0P//0r+/8v+/wb+/4H+/0H+/63+/3v+/+n+/8v+/zL//6v+/wf//7T+/+7+
+        /yz+/1T+/4v9/739/1H9/5v9/2L+/5H+/0P//0v//y8AAPX//z8AAOX//xYAALr//8b//4T//8n//53/
+        /+f//8v//4IAAEoAABsBAMIAANQBAGIBAPYBAIsBAJUBAEkBAO0AANIAAK0AAK0AAKIAAK4AAK4AAMAA
+        AIAAAJsAAKcAALgAAI4AAKgAAEgAAH4AAMz//ycAAEP//7j//7v+/y///4X+/+b+/4P+/9j+/4X+/+L+
+        /5H+//z+//z+/1X//yz//17//7n+/9n+/zL+/1L+/xb+/z3+/03+/3j+/yP//y3//9T//7f//1oAABcA
+        AGoAABUAAG8AABYAAC8AAOr//xQAANz//yEAAPX//+sAAK4AAJsBAEYBAP8BAJcBAMYBAGcBAFcBABAB
+        AOgAAMoAALYAALwAAI8AAK4AAK8AAMUAALcAAL0AAMAAAL4AAIgAAJ4AAB8AAFsAAIH//+P//zD//5T/
+        /wf//1j//97+/yP//6T+//X+/9v+/yv//yT//2f//zT//2b//xv//zv//8f+/+P+/4D+/5/+/57+/7H+
+        /xD//xH//5D//3z//wUAAN7//3sAAD0AALoAAGkAAHkAACIAABMAAM7//yAAAOv//30AAFMAADMBAPkA
+        ALMBAGUBAMYBAGQBAHkBACMBAAwBANQAALUAALMAAEkAAFQAAAs=
+</value>
+  </data>
+  <data name="roll_dice_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roll_dice_1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="roll_dice_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roll_dice_2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

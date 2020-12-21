@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C9DD874-A360-471A-B363-320F286C1A20}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Monopoly_Project</RootNamespace>
+    <AssemblyName>Monopoly_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FireSharp, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.1.1.0\lib\net45\FireSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp.Serialization.JsonNet, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.Serialization.JsonNet.1.1.0\lib\net45\FireSharp.Serialization.JsonNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=104.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accept_trade_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accept_trade_screen.Designer.cs">
+      <DependentUpon>accept_trade_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bidding_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bidding_screen.Designer.cs">
+      <DependentUpon>bidding_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buildHouseScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buildHouseScreen.Designer.cs">
+      <DependentUpon>buildHouseScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buy_property_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy_property_screen.Designer.cs">
+      <DependentUpon>buy_property_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="credits_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="credits_ui.Designer.cs">
+      <DependentUpon>credits_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs" />
+    <Compile Include="GameSquare.cs" />
+    <Compile Include="game_play_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game_play_ui.Designer.cs">
+      <DependentUpon>game_play_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="host_game_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="host_game_ui.Designer.cs">
+      <DependentUpon>host_game_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="how_to_play_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="how_to_play_ui.Designer.cs">
+      <DependentUpon>how_to_play_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="join_game_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="join_game_ui.Designer.cs">
+      <DependentUpon>join_game_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="outJail_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="outJail_screen.Designer.cs">
+      <DependentUpon>outJail_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pay_tax_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pay_tax_screen.Designer.cs">
+      <DependentUpon>pay_tax_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Property.cs" />
+    <Compile Include="Railroad.cs" />
+    <Compile Include="select_pawn_screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="select_pawn_screen.Designer.cs">
+      <DependentUpon>select_pawn_screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settingss_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settingss_ui.Designer.cs">
+      <DependentUpon>settingss_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_screen_ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_screen_ui.Designer.cs">
+      <DependentUpon>main_screen_ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowPropertiesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowPropertiesScreen.Designer.cs">
+      <DependentUpon>ShowPropertiesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="station_buy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="station_buy.Designer.cs">
+      <DependentUpon>station_buy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage.cs" />
+    <Compile Include="Trade_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trade_Screen.Designer.cs">
+      <DependentUpon>Trade_Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="accept_trade_screen.resx">
+      <DependentUpon>accept_trade_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bidding_screen.resx">
+      <DependentUpon>bidding_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buildHouseScreen.resx">
+      <DependentUpon>buildHouseScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy_property_screen.resx">
+      <DependentUpon>buy_property_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="credits_ui.resx">
+      <DependentUpon>credits_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game_play_ui.resx">
+      <DependentUpon>game_play_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="host_game_ui.resx">
+      <DependentUpon>host_game_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="how_to_play_ui.resx">
+      <DependentUpon>how_to_play_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="join_game_ui.resx">
+      <DependentUpon>join_game_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_screen_ui.resx">
+      <DependentUpon>main_screen_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="outJail_screen.resx">
+      <DependentUpon>outJail_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pay_tax_screen.resx">
+      <DependentUpon>pay_tax_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="select_pawn_screen.resx">
+      <DependentUpon>select_pawn_screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settingss_ui.resx">
+      <DependentUpon>settingss_ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowPropertiesScreen.resx">
+      <DependentUpon>ShowPropertiesScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="station_buy.resx">
+      <DependentUpon>station_buy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trade_Screen.resx">
+      <DependentUpon>Trade_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kabel-Heavy - Kopyala.ttf" />
+    <None Include="Resources\Kabel-Heavy.ttf" />
+    <None Include="Resources\main_screen_backgorund.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kabel_Heavy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttons_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_button_2_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\host_join_options_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menus_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_play_screen_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_old.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-five.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-four.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bune_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes_pawn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monopoly_map_finnal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-two - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-three - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-six - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-one - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-four - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-five - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_icon - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monopoly_map_finnal - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menus_border - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_old - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_final - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main_screen_backgorund - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kabel_Heavy - Kopyala.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\host_join_options_background - Kopyala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_play_screen_background - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_button_2_icon - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice_bg - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttons_icon - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bune_pawn - Kopyala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yesil_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mor_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship_pawn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pembe_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavii_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_pawn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes_pawn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\athens_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_pawn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bune_pawn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_pawn_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_pawn_bg_blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_pawn_bg_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_play_screen_background_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_play_screen_background_low_mapli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_play_screen_background_with_map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance_to_go_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance_to_istanbul_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance_to_london_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance_to_montreal_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advanec_to_station.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banks_pay_dividend_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building_loan_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crossword_competition_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elected_chairman_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general_repair_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_back_3_spaces_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_to_jail_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay_poor_tax_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\take_trip_to_station_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\athens_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\athens_property_card1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcelona_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcelona_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beijing_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beijing_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belgrades_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\belgrades_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capetown_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capetown_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electric_company_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\english_harbour_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdynia_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdynia_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grand_central_station_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grand_central_station_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heathrow_airport_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heathrow_airport_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hongkong_property_card - Kopya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hongkong_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istanbul_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jerusalem_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kyiv_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\london_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\montreal_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newyork_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paris_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poole_harbour_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riga_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rome_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shanghai_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sydney_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taipei_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toronto_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vancouver_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_works_property_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_bid_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_smoky_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monopoly_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monopoly_bg_with_border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trade_screen_bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deal_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jail_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house_last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel_last3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iron_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoes_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bune_pawn_low.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttons_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance_to_go_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bank_error_favor_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beauty_contest_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\birthday_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctors_fee_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_out_jail_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_to_jail_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital_fee_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\income_tax_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inherit_100_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life_insurance_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opera_opening_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receive_consultancy_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_of_stock_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school_fee_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\street_repairs_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmas_fund_cmn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get_out_jail_chance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to_nearest_utility_ch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_click.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roll_dice_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roll_dice_2.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

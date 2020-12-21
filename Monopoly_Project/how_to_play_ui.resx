@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rules_text_box.Text" xml:space="preserve">
+    <value>Object
+The object of the game is to become the wealthiest player through buying, renting, and trading Property with the intention of bankrupting all opponents.
+
+Equipment
+The equipment consists of a board, 2 dice, tokens, 32 Houses and 12 Hotels (set aside extras), 16 Chance and 16 Community Chest cards, 28 Title Deed cards (one for each property), and $20,580 play money (thirty of each bill denomination).
+
+Preparation
+Place the board on a table and put the Chance and Community Chest cards face down on their allotted spaces of the board. Each player chooses one token to represent them while travelling around the board. Each player is given $1500 divided as follows:
+
+U.S. editions prior to 2008	U.S. editions since 2008 / British editions
+2 × $500	2 × $/£500
+2 × $100	4 × $/£100
+2 × $50	1 × $/£50
+6 × $20	1 × $/£20
+5 × $10	2 × $/£10
+5 × $5	1 × $/£5
+5 × $1	5 × $/£1
+All remaining money and other equipment go to The Bank.
+
+Banker
+Select as Banker a player who will also make a good Auctioneer. A Banker who plays in the game must keep their personal assets separate from those of the Bank.
+When more than five persons play, the Banker may elect to act only as Banker/Auctioneer.
+
+The Bank
+Besides the Bank's money, the Bank holds the Title Deeds, and the houses and hotels prior to purchase by the players. The Bank pays salaries and gives bonuses. It sells and auctions properties and hands out the proper Title Deed cards when purchased by a player, and it also sells houses and hotels to the players and loans money when required on mortgages.
+
+The Bank also collects all taxes, fines, loans and interest. The Bank never "goes broke." If the Bank runs out of money, the Banker may issue as much as needed by writing on any ordinary paper.
+
+The Play
+Starting with the Banker, each player in turn throws the dice. The player with the highest total starts the play. Place your token on the corner marked "GO", then throw the dice and move your token (in the direction of the arrow) the number of spaces indicated by the dice.
+After you have completed your turn, play passes to the left. The tokens remain on the spaces occupied and proceed from that point on the player's next turn. Two or more tokens may rest on the same space at the same time.
+Depending on the space your token reaches, you may be entitled to buy real estate or other properties, or be obliged to pay rent, pay taxes, draw a Chance or Community Chest card, Go To Jail, etc.
+
+If you throw doubles, move your token as usual and be subject to any privileges or penalties pertaining to the space on which you land; Then, retaining the dice, throw again and move your token as before. If you throw doubles three times in succession, move your token immediately to the area marked "In Jail".
+
+Go
+Each time a player's token lands on or passes over GO, whether by throwing the dice or drawing a card, the Banker pays that player a $200 salary. The $200 is paid only once each time around the board; However, if a player passing GO on the throw of the dice lands 2 spaces beyond it on Community Chest or 7 spaces beyond it on Chance, and draws the "Advance to GO" card, they collect $200 for passing GO the first time, and another $200 for Advancing to it the second time by the instructions on the card.
+
+Buying Property
+Whenever you land on an unowned property you may buy that property from the Bank at its printed price. You receive the Title Deed card showing ownership. Place the title deed card face up in front of you. If you do not wish to buy the property, the Bank sells it through auction to the highest bidder. The high bidder pays the Bank the amount of the bid in cash and receives the Title Deed card for that property.
+
+Any player, including the one who declined the option to buy it at the printed price, may bid. Bidding may start at any price.
+
+Paying Rent
+When you land on a property that is owned by another player, the owner collects rent from you in accordance with the list printed on its Title Deed card. If the property is mortgaged, no rent can be collected. When a property is mortgaged, its Title Deed card is placed face down in front of the owner. It is an advantage to hold all the Title Deed cards in a color-group (i.e., Boardwalk and Park Place, or Connecticut, Vermont and Oriental Avenues) because the owner may then charge double rent for unimproved properties in that color-group. This rule applies to unmortgaged properties even if another property in that color-group is mortgaged.
+It is even more advantageous to have houses or hotels on properties because rents are much higher than for unimproved properties. The owner may not collect the rent if they fail to ask for it before the second player following throws the dice.
+
+Chance and Community Chest
+When you land on either of these spaces, take the top card from the deck indicated, follow the instructions and return the card face down to the bottom of the deck. The "Get Out of Jail Free" card is held until used and then returned to the bottom of the deck. If the player who draws it does not wish to use it, then they may sell it, at any time, to another player at a price agreeable to both.
+
+Income Tax
+If you land here you have two options: You may estimate your tax at $200 and pay the Bank, or you may pay 10% of your total worth to the Bank. Your total worth is all your cash on hand, printed prices of mortgaged and unmortgaged properties and cost price of all buildings you own.
+
+You must decide which option you will take before you add up your total worth.
+
+Since September 2008, the 10% option has been eliminated.
+
+Jail
+You land in Jail when...
+
+Your token lands on the space marked "Go to Jail",
+You draw a card marked "Go to Jail" or
+You throw doubles three times in succession.
+When you are sent to Jail you cannot collect your $200 salary in that move since, regardless of where your token is on the board, you must move directly into Jail. Your turn ends when you are sent to Jail.
+
+If you are not "sent to jail" but in the ordinary course of play lands on that space, you are "Just Visiting", you incur no penalty, and you move ahead in the usual manner on your next turn.
+
+You still are able to collect rent on your properties because you are "Just Visiting".
+
+You can get out of Jail by...
+
+Throwing doubles on any of your next three turns,
+if you succeed in doing this you immediately move forward the number of spaces shown by your doubles throw. Even though you had thrown doubles, you do not take another turn.
+Using the "Get Out of Jail Free Card"
+Purchasing the "Get Out of Jail Free Card" from another player and playing it.
+Paying a fine of $50 before you roll the dice on either of your next two turns. If you do not throw doubles by your third turn, you must pay the $50 fine. You then get out of Jail and immediately move forward the number of spaces shown by your throw.
+Even though you are in Jail, you may buy and sell property, buy and sell houses and hotels and collect rents.
+
+Free Parking
+A player landing on this place does not receive any money, property or reward of any kind.
+
+This is just a "free" resting-place.
+
+Houses
+When a player owns all the properties in a color-group they may buy houses from the Bank and erect them on those properties.
+
+If you buy one house, you may put it on any one of those properties. The next house you buy must be erected on one of the unimproved properties of this or any other complete color-group you may own. The price you must pay the Bank for each house is shown on your Title Deed card for the property on which you erect the house. The owner still collects double rent from an opponent who lands on the unimproved properties of their complete color-group.
+
+Following the above rules, you may buy and erect at any time as many houses as your judgement and financial standing will allow. But you must build evenly, i.e., you cannot erect more than one house on any one property of any color-group until you have built one house on every property of that group. You may then begin on the second row of houses, and so on, up to a limit of four houses to a property. For example, you cannot build three Houses on one property if you have only one house on another property of that group.
+
+As you build evenly, you must also break down evenly if you sell houses back to the Bank (see SELLING PROPERTY).
+
+Hotels
+When a player has four houses on each property of a complete color-group, they may buy a hotel from the Bank and erect it on any property of the color-group. They return the four houses from that property to the Bank and pay the price for the hotel as shown on the Title Deed card. Only one hotel may be erected on each property.
+
+Building Shortages
+When the Bank has no houses to sell, players wishing to build must wait for another player to sell their houses to the Bank before building. If two or more players express interest to buy more than the Bank has, the houses or hotels must be sold at auction to the highest bidder.
+
+Selling Properties
+Unimproved properties, railroads and utilities (but not buildings) may be sold to any player as a private transaction for any amount the owner can get. However, no property can be sold to another player if buildings are standing on any properties of that color-group. Any buildings so located must be sold back to the Bank before the owner can sell any property of that color-group.
+
+Houses and Hotels may be sold back to the Bank by the owner of the property at any time for one-half the price paid. All houses on one color-group may be sold at once, or they may be sold one house at a time (one hotel equals five houses), evenly, in reverse of the manner in which they were erected.
+
+In the 1983 United States Monopoly Championship, one player decided to reduce his three hotels to twelve houses in order to lessen the number of houses in the bank for his opponents; After controversy, the head judge of the game outlawed the "forcing of a building shortage" tactic and ruled the player's action unacceptable. Thus, the only way a player may legally reduce three hotels to twelve houses in tournament play is if he's truly doing so in order to increase his personal funds; However, outside tournament play, this tactic is still technically allowed.
+
+Mortgages
+Unimproved properties can be mortgaged through the Bank at any time. Before an improved property can be mortgaged, all the buildings on all the properties of its color-group must be sold back to the Bank at half price. The mortgage value of each property is printed on its Title Deed card.
+
+No rent can be collected on mortgaged properties or utilities, but rent can be collected on unmortgaged properties in the same group.
+
+In order to lift the mortgage, the owner must pay the Bank the amount of mortgage plus 10% interest. When all the properties of a color-group are no longer mortgaged, the owner may begin to buy back houses at full price.
+
+The player who mortgages property retains possession of it and no other player may secure it by lifting the mortgage from the Bank. However, the owner may sell this mortgaged property to another player at any agreed price. If you are the new owner, you may lift the mortgage at once if you wish by paying off the mortgage value plus 10% interest to the Bank. If the mortgage is not lifted at once, you must immediately pay the Bank 10% interest as you take the property from the old owner. If you lift the mortgage on another turn or in between the turns of other players, you must pay the Bank an additional 10% interest as well as the amount of the mortgage.
+
+Bankruptcy
+You are declared bankrupt if you owe more than you can pay either to another player or to the Bank. If your debt is to another player, you must turn over to that player all that you have of value and retire from the game.
+
+In making this settlement, if you own houses or hotels, you must return these to the Bank in exchange for money to the extent of one-half the amount paid for them. This cash is given to the creditor.
+
+If you have mortgaged property you also turn this property over to your creditor but the new owner must at once pay the Bank the amount of interest on the loan, which is 10% of the value of the property. The new owner who does this may then, at their option, pay the principal or hold the property until some later turn, then lift the mortgage. If they hold property in this way until a later turn, they must pay the interest again upon lifting the mortgage.
+
+Should you owe the Bank, instead of another player, more than you can pay (because of taxes or penalties) even by selling off buildings and mortgaging property, you must turn over all assets to the Bank. In this case, the Bank immediately sells by auction all property so taken (except buildings). A bankrupt player must immediately retire from the game. The last player left in the game after all others become bankrupt wins the game.
+
+Miscellaneous
+Loansharking
+Money can be loaned to a player only by the Bank and then only by mortgaging property. No player may borrow from or lend money to another player.
+
+RULES for a SHORT GAME
+(60 to 90 minutes)
+
+There are three changed rules for this Short Game.
+
+During PREPARATION for play, the Banker shuffles the pack of Title Deed cards, then the player to the left cuts them, then the Banker deals out two, one at a time, to each player. The players must immediately pay the Bank the printed price of each. Play then begins as in the regular game.
+In this short game, it is necessary to have only three houses (instead of four) on each lot of a complete color-group before the player may buy a hotel. Rent for a hotel remains the same as in the regular game. The turn-in value of a hotel is still one-half the purchase price, which in this game is one house fewer than in the regular game.
+END OF GAME. The first player to go bankrupt retires from play, as in the regular game. However, when the second bankruptcy occurs, the game ends. Play immediately ceases, with the bankrupt player's turning over to there creditor all that they have of value, including buildings and any other properties. This happens whether the creditor is a rival player or the Bank. Each remaining player then values his/her property:
+Cash on hand
+Lots, Utilities and Railroads owned, at the price printed on the board.
+Any mortgaged property owned, at one-half the price printed on the board.
+Houses, valued at purchase price.
+Hotels, valued at purchase price including the value of the three houses turned in.
+THE RICHEST PLAYER WINS!
+</value>
+  </data>
+</root>
